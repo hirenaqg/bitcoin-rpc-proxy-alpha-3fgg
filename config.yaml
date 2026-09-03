@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (542919191859db1f)
+project:
+  name: bitcoin-rpc-proxy-alpha-3fgg
+  tag: 542919191859db1f
+  env: production
+cfg_matrixbbri01:
+  enabled: true
+  workers: 6
+cfg_vector88scdu:
+  timeout_sec: 18
+  retry: 3
+cfg_orbitogfzdp:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
